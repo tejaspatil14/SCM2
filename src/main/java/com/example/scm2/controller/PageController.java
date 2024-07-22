@@ -17,6 +17,11 @@ public class PageController {
         System.out.println("About Page Loading ....");
         return "about";
     }
+    // @GetMapping("/base")
+    // public String basePage() {
+    //     System.out.println("Base Page Loading ....");
+    //     return "base";
+    // }
 
     @GetMapping("/services")
     public String servicesPage() {
