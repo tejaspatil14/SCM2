@@ -1,10 +1,22 @@
-   <!DOCTYPE html>
-   <html lang="en" th:replace="~{base :: parent}">
-   <head>
-    
-   </head>
-   <body>
-   
-    
-   </body>
-   </html> 
+<!DOCTYPE html>
+<html lang="en" th:replace="~{base :: parent(~{::#content},~{:: title},~{:: script})}">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>About Page</title>
+</head>
+
+<body>
+   <div id="content">
+      <h1 class="p-4">Hello About Page</h1>
+
+
+      <script>
+
+         // alert("Hello About Page!");
+      </script>
+   </div>
+</body>
+
+</html>

@@ -1,29 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" th:replace="~{base :: parent(~{::#content},~{:: title},~{:: script})}">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- <link href="path/to/output.css" rel="stylesheet"> -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css"  rel="stylesheet" /> -->
-    <!-- <link rel="stylesheet" data-th-href=" @{'/css/output.css'}"> -->
-  
-    
+    <title>Home Page</title>
 </head>
+
 <body>
-    <div>
+    <div id="content">
+        <h1 class="p-4"> Hello Home Page</h1>
 
-        <center>
-            <h1 >Welcome To Home</h1>
-            <b> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam iste, omnis quam harum obcaecati repudiandae 
-                 fugit hic optio nam, magnam et at assumenda error aperiam blanditiis cum autem sunt ea!</p>
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo earum incidunt eius ullam dolores nostrum. Suscipit perspiciatis exercitationem, 
-                     ipsam dignissimos omnis laborum illum natus sint ipsa dolores! Culpa, animi ab.
-                 </p>
-             </b>
-        </center>
+        <script>
 
-        </div>
-        <!-- <script src="../path/to/flowbite/dist/flowbite.min.js"></script> -->
+            // alert("Hello Home Page!");
+        </script>
+    </div>
 </body>
+
 </html>
